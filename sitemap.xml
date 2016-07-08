@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://forkjoin.vip/downloads/index.html</loc>
-    
-    <lastmod>2016-07-05T06:06:48.849Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://forkjoin.vip/2016/07/04/new/</loc>
-    
-    <lastmod>2016-07-05T05:51:05.986Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://forkjoin.vip/404.html</loc>
     
-    <lastmod>2016-07-05T05:36:39.977Z</lastmod>
+    <lastmod>2016-07-07T07:58:11.029Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://forkjoin.vip/downloads/index.html</loc>
+    
+    <lastmod>2016-07-06T06:42:07.833Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://forkjoin.vip/2016/07/04/new.html</loc>
+    
+    <lastmod>2016-07-06T06:38:51.685Z</lastmod>
     
   </url>
   
@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>http://forkjoin.vip/2016/07/04/hello-world/</loc>
+    <loc>http://forkjoin.vip/2016/07/04/hello-world.html</loc>
     
     <lastmod>2016-07-04T02:33:45.683Z</lastmod>
     
