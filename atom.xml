@@ -40,7 +40,7 @@
     <link href="http://forkjoin.vip/2016/07/16/Hexo%E6%90%AD%E5%BB%BAGithub%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%B3%BB%E5%88%97-Hexo%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.html"/>
     <id>http://forkjoin.vip/2016/07/16/Hexo搭建Github静态博客系列-Hexo基础环境搭建.html</id>
     <published>2016-07-16T03:42:45.000Z</published>
-    <updated>2016-07-18T06:42:02.821Z</updated>
+    <updated>2016-07-18T10:26:09.236Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Hexo简介&quot;&gt;&lt;a href=&quot;#Hexo简介&quot; class=&quot;headerlink&quot; title=&quot;Hexo简介&quot;&gt;&lt;/a&gt;Hexo简介&lt;/h2&gt;&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
 &lt;h2 id=&quot;环境准备&quot;&gt;&lt;a href=&quot;#环境准备&quot; class=&quot;headerlink&quot; title=&quot;环境准备&quot;&gt;&lt;/a&gt;环境准备&lt;/h2&gt;&lt;p&gt;Hexo是基于Node.js开发的，首先需要在个人电脑上安装&lt;a href=&quot;https://nodejs.org/&quot; title=&quot;官网&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js&lt;/a&gt;程序,下载自己电脑系统对应位数(64位),(32位)的最新版本。因为Hexo生成的静态HTML文件我们要发布到github上,所以&lt;a href=&quot;http://git-scm.com/&quot; title=&quot;官网&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git&lt;/a&gt; 程序也是要安装的。&lt;/p&gt;
@@ -48,13 +48,13 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/git-for-windows/git/releases/download/v2.9.0.windows.1/Git-2.9.0-64-bit.exe&quot; title=&quot;官网下载地址&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;64-bit Git for Windows Setup&lt;/a&gt; &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;双击exe安装程序，一步一步执行到最后安装完成，推荐使用默认配置项。&lt;br&gt;安装成功后会出现在&lt;strong&gt;“开始”–&amp;gt;”所有程序”–&amp;gt;”Git”菜单中&lt;/strong&gt;。如图：&lt;br&gt;&lt;img src=&quot;http://o9u7ezg3r.bkt.clouddn.com/git_menu.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;打开 Git CMD 或者 Git Bash 输入: &lt;code&gt;git --version&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;打开 Git CMD 或者 Git Bash 输入:&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;git --version&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;如果能正常执行并返回git的版本号，说明git的安装没有问题&lt;/p&gt;
 &lt;h3 id=&quot;nodejs安装&quot;&gt;&lt;a href=&quot;#nodejs安装&quot; class=&quot;headerlink&quot; title=&quot;nodejs安装&quot;&gt;&lt;/a&gt;nodejs安装&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://nodejs.org/dist/v4.4.7/node-v4.4.7-x64.msi&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Node.js for Windows (x64)&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h3&gt;&lt;p&gt;如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装&lt;/p&gt;
-&lt;p&gt;打开 Git Bash 输入：&lt;code&gt;install -g hexo-cli&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;打开 Git Bash 输入：&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;install -g hexo-cli&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt; 我个人喜欢这种 linux shell 风格的命令行窗口。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;h6 id=&quot;参考引用&quot;&gt;&lt;a href=&quot;#参考引用&quot; class=&quot;headerlink&quot; title=&quot;参考引用&quot;&gt;&lt;/a&gt;参考引用&lt;/h6&gt;&lt;p&gt;Hexo中文文档 &lt;a href=&quot;https://hexo.io/zh-cn/docs/index.html&quot; title=&quot;Hexo中文文档&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://hexo.io/zh-cn/docs/index.html&lt;/a&gt;&lt;/p&gt;
