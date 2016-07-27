@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://forkjoin.vip/2016/07/27/%E7%AC%AC%E4%B8%80%E7%AB%A0MySQL%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%8E%86%E5%8F%B2-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</loc>
+    
+    <lastmod>2016-07-27T07:41:14.170Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://forkjoin.vip/downloads/index.html</loc>
     
     <lastmod>2016-07-20T06:40:00.140Z</lastmod>
@@ -23,23 +30,9 @@
   </url>
   
   <url>
-    <loc>http://forkjoin.vip/2016/07/18/windows7%E4%B8%8B%E5%AE%89%E8%A3%85git%E4%B9%8B%E8%AF%A6%E7%BB%86%E6%AD%A5%E9%AA%A4.html</loc>
-    
-    <lastmod>2016-07-18T06:16:26.349Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://forkjoin.vip/404.html</loc>
     
     <lastmod>2016-07-07T07:58:11.029Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://forkjoin.vip/2016/07/04/new.html</loc>
-    
-    <lastmod>2016-07-06T06:38:51.685Z</lastmod>
     
   </url>
   
@@ -54,13 +47,6 @@
     <loc>http://forkjoin.vip/tags/index.html</loc>
     
     <lastmod>2016-07-05T05:16:57.478Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://forkjoin.vip/2016/07/04/hello-world.html</loc>
-    
-    <lastmod>2016-07-04T02:33:45.683Z</lastmod>
     
   </url>
   
